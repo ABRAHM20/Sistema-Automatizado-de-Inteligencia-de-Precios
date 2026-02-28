@@ -69,11 +69,11 @@ Agrega tus credenciales reales:
 
 Plaintext
 DB_USER=tu_usuario_postgres
-DB_PASS=tu_contraseña_postgres
+DB_PASSWORD=tu_contraseña_postgres
 DB_HOST=localhost
 
-TELEGRAM_TOKEN=tu_token_de_botfather
-TELEGRAM_CHAT_ID=tu_id_de_chat_o_grupo
+TOKEN_ID=tu_token_de_botfather
+CHAT_ID=tu_id_de_chat_o_grupo
 5. Encender el Motor:
 Ejecuta el siguiente comando para levantar el servidor. El sistema creará las tablas automáticamente, enviará el primer reporte a Telegram de inmediato, y programará los siguientes escaneos cada 4 horas.
 
