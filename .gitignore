@@ -1,0 +1,6 @@
+# Ignorar credenciales y secretos
+.env
+
+# Ignorar basura y caché de Python
+__pycache__/
+*.pyc
